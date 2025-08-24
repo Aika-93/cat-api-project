@@ -1,4 +1,4 @@
-const apiKey = "live_hAVhOENPCSgNSRH8PdxMthZQeP0z55JiimTEDVhQELPBRoLfHaGsV4qacPMC3b5z";
+const apiKey = "your_key";
 const content = document.getElementById('content');
 
 // Определяем, на какой странице мы находимся
@@ -47,4 +47,5 @@ async function getFacts() {
     console.error(error);
     content.textContent = 'Ошибка при загрузке фактов.';
   }
+
 }
