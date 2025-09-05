@@ -1,38 +1,18 @@
 # Cat API Project
 
 ## Description
-This project displays data from the Cat API: *images of cats* and *facts about cats*.  
-- *Images* page: fetches new cat pictures each time it is loaded.  
-- *Facts* page: shows a fixed set of cat facts.  
-
-Navigation links allow switching between pages.
-
----
+This project displays cat images and cat facts using TheCatAPI.
 
 ## Project Structure
-- index.html — Cat images page  
-- facts.html — Cat facts page  
-- style.css — Styles  
-- script.js — JavaScript for API and content display  
-- README.md — Project instructions  
-
----
+- index.html — displays random cat images
+- facts.html — shows a list of cat facts
+- style.css — styles both pages
+- script.js — API requests and content display logic
+- README.md — instructions for running the project
 
 ## How to Run
-1. Clone the repository or download the files.  
-2. Insert your Cat API key in script.js:
-```js
-const apiKey = 'your_key';
-3.	Start a local server:
-	•	Live Server in VS Code: Right-click index.html → Open with Live Server
-	•	Or using Python:
-            python -m http.server 5500
-        Open in browser: http://localhost:5500/index.html
+1. Clone or download this repository.
+2. Open index.html in your browser (preferably using Live Server in VS Code or a local development server).
+3. Use provided navigation to switch between the Images and Facts pages.
 
-4.	Use navigation links to switch between Images and Facts.
-
-Notes
-	•	Images: new pictures each load.
-	•	Facts: fixed, consistent for all users.
-	•	Meets assignment requirements: two endpoints, navigation, and API interaction.
 
