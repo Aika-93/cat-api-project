@@ -22,7 +22,7 @@ Navigation links allow switching between pages.
 1. Clone the repository or download the files.  
 2. Insert your Cat API key in script.js:
 ```js
-const apiKey = 'live_hAVhOENPCSgNSRH8PdxMthZQeP0z55JiimTEDVhQELPBRoLfHaGsV4qacPMC3b5z';
+const apiKey = 'your_key';
 3.	Start a local server:
 	•	Live Server in VS Code: Right-click index.html → Open with Live Server
 	•	Or using Python:
@@ -35,3 +35,4 @@ Notes
 	•	Images: new pictures each load.
 	•	Facts: fixed, consistent for all users.
 	•	Meets assignment requirements: two endpoints, navigation, and API interaction.
+
